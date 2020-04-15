@@ -1,6 +1,5 @@
 class CompaniesController < ApplicationController
-    def home
-    end
+   rails 
 
     def new
         @company = Company.new        
