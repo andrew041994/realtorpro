@@ -14,7 +14,7 @@ class AgentsController < ApplicationController
     end
 
     def show
-        @agent = Agent.find_by(params[:id])
+    
         
     end
 end
