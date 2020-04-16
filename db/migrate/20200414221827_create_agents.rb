@@ -6,6 +6,7 @@ class CreateAgents < ActiveRecord::Migration[6.0]
       t.string :username
       t.string :email
       t.string :password_digest
+      t.belongs_to :company
 
       t.timestamps
     end

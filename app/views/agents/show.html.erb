@@ -1,14 +1,2 @@
-<center>
-<h1>Login</h1>
-
-<%= form_for :agent do |f|%>
-<%=f.label :username%>
-<%=f.text_field :username%>
-<br><br>
-<%=f.label "password" %>
-<%=f.password_field :password%>
-<br><br>
-<%=f.submit "Log In"%>
-<% end %>
-
-</center>
+<h1>welcome <%= @agent.first_name%> <%=@agent.last_name%></h1>
+<h3><%=@agent.company.name%></h3>
